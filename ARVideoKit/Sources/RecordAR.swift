@@ -272,7 +272,10 @@ private var renderer: RenderAR!
     }
     
     
-
+    public func getVideoPath() -> URL? {
+        return currentVideoPath
+        
+    }
 
     //MARK: - Public methods for capturing videos, photos, Live Photos, and GIFs
 
