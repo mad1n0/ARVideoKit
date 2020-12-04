@@ -286,7 +286,9 @@ import PhotosUI
         NotificationCenter.default.addObserver(self, selector: #selector(appWillEnterBackground), name: UIApplication.willResignActiveNotification, object: nil)
     }
     
-    
+    public func getVideoPath() -> URL? {
+        return currentVideoPath
+    }
 
 
     //MARK: - Public methods for capturing videos, photos, Live Photos, and GIFs
